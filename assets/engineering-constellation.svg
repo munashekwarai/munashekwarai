@@ -1,75 +1,127 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="610" viewBox="0 0 1400 610">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#05070a"/>
-      <stop offset="52%" stop-color="#0a0f15"/>
-      <stop offset="100%" stop-color="#05070a"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#73f0c2"/>
-      <stop offset="100%" stop-color="#6c9cff"/>
-    </linearGradient>
-    <linearGradient id="accent2" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0%" stop-color="#73f0c2" stop-opacity=".18"/>
-      <stop offset="100%" stop-color="#6c9cff" stop-opacity=".06"/>
-    </linearGradient>
-    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M44 0H0V44" fill="none" stroke="#ffffff" stroke-opacity=".03"/>
-    </pattern>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <rect width="1400" height="610" rx="28" fill="url(#bg)"/>
-  <rect width="1400" height="610" rx="28" fill="url(#grid)"/>
-  
-  <text x="58" y="58" font-family="Consolas,monospace" font-size="15" fill="#73f0c2">02 / ENGINEERING CONSTELLATION</text>
-  <text x="58" y="104" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="700" fill="#f5f7fa">One system. Multiple disciplines.</text>
-  <text x="58" y="139" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#9ba7b4">The interesting work happens where infrastructure, security, intelligence and software meet.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="640" viewBox="0 0 1400 640">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#06090d"/>
+    <stop offset="55%" stop-color="#0a0f15"/>
+    <stop offset="100%" stop-color="#070a0f"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#71f0c1"/>
+    <stop offset="52%" stop-color="#71d6dd"/>
+    <stop offset="100%" stop-color="#7798ff"/>
+  </linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity=".065"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity=".018"/>
+  </linearGradient>
+  <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+    <path d="M38 0H0V38" fill="none" stroke="#ffffff" stroke-opacity=".025"/>
+  </pattern>
+  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="7" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
 
-  <g transform="translate(700 340)">
-    <circle r="78" fill="#ffffff" fill-opacity=".035" stroke="#ffffff" stroke-opacity=".10"/>
-    <circle r="52" fill="url(#accent2)" stroke="#73f0c2" stroke-opacity=".3"/>
-    <text x="0" y="-3" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="700" fill="#f5f7fa">MK</text>
-    <text x="0" y="22" text-anchor="middle" font-family="Consolas,monospace" font-size="12" fill="#8f9aa5">SYSTEMS</text>
-  </g>
+<rect width="1400" height="640" rx="30" fill="url(#bg)"/>
+<rect width="1400" height="640" rx="30" fill="url(#grid)"/>
 
-  <g stroke="#ffffff" stroke-opacity=".11" stroke-width="2">
-    <line x1="648" y1="295" x2="400" y2="215"/>
-    <line x1="752" y1="295" x2="1000" y2="215"/>
-    <line x1="648" y1="385" x2="400" y2="465"/>
-    <line x1="752" y1="385" x2="1000" y2="465"/>
-  </g>
+<!-- ambient -->
+<circle cx="1280" cy="80" r="235" fill="#7798ff" fill-opacity=".026"/>
+<circle cx="1160" cy="610" r="260" fill="#71f0c1" fill-opacity=".018"/>
+
+<!-- editorial header -->
+<text x="64" y="62" font-family="Consolas,monospace" font-size="14" fill="#71f0c1">02 / SYSTEMS ARCHITECTURE</text>
+<text x="64" y="116" font-family="Segoe UI,Arial,sans-serif" font-size="38" font-weight="750" letter-spacing="-1" fill="#f5f7fa">Different disciplines.</text>
+<text x="64" y="160" font-family="Segoe UI,Arial,sans-serif" font-size="38" font-weight="750" letter-spacing="-1" fill="#f5f7fa">One architecture.</text>
+<text x="64" y="201" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#8f9aa6">Cloud, networking, security, intelligence and software are treated as layers of the same system.</text>
+
+<!-- left index -->
+<g transform="translate(64 256)">
+  <rect width="310" height="300" rx="22" fill="url(#glass)" stroke="#ffffff" stroke-opacity=".07"/>
+  <text x="26" y="38" font-family="Consolas,monospace" font-size="12" fill="#66727f">CAPABILITY INDEX</text>
 
   <g font-family="Segoe UI,Arial,sans-serif">
-    <g transform="translate(115 170)">
-      <rect width="390" height="118" rx="20" fill="#ffffff" fill-opacity=".028" stroke="#ffffff" stroke-opacity=".08"/>
-      <text x="26" y="34" font-family="Consolas,monospace" font-size="13" fill="#73f0c2">CLOUD / INFRASTRUCTURE</text>
-      <text x="26" y="66" font-size="21" font-weight="700" fill="#f5f7fa">Design for reliability.</text>
-      <text x="26" y="91" font-size="14" fill="#8e99a5">Azure · identity · monitoring · deployment</text>
+    <text x="26" y="84" font-family="Consolas,monospace" font-size="12" fill="#71f0c1">01</text>
+    <text x="64" y="84" font-size="16" font-weight="650" fill="#edf1f5">Cloud Infrastructure</text>
+    <text x="64" y="106" font-size="12" fill="#78838e">identity · monitoring · deployment</text>
+
+    <text x="26" y="145" font-family="Consolas,monospace" font-size="12" fill="#78ddd2">02</text>
+    <text x="64" y="145" font-size="16" font-weight="650" fill="#edf1f5">Networking</text>
+    <text x="64" y="167" font-size="12" fill="#78838e">routing · switching · VPN · TCP/IP</text>
+
+    <text x="26" y="206" font-family="Consolas,monospace" font-size="12" fill="#79c5e7">03</text>
+    <text x="64" y="206" font-size="16" font-weight="650" fill="#edf1f5">Security</text>
+    <text x="64" y="228" font-size="12" fill="#78838e">RBAC · auth · trust · logging</text>
+
+    <text x="26" y="267" font-family="Consolas,monospace" font-size="12" fill="#7798ff">04</text>
+    <text x="64" y="267" font-size="16" font-weight="650" fill="#edf1f5">AI, Data & Software</text>
+    <text x="64" y="289" font-size="12" fill="#78838e">Python · BI · APIs · cross-platform apps</text>
+  </g>
+</g>
+
+<!-- main architecture stage -->
+<g transform="translate(414 256)">
+  <rect width="922" height="300" rx="22" fill="#ffffff" fill-opacity=".018" stroke="#ffffff" stroke-opacity=".065"/>
+
+  <!-- top label -->
+  <text x="28" y="38" font-family="Consolas,monospace" font-size="12" fill="#66727f">REFERENCE FLOW / MK-ARCH-01</text>
+  <text x="866" y="38" text-anchor="end" font-family="Consolas,monospace" font-size="12" fill="#71f0c1">SYSTEM STATUS ●</text>
+
+  <!-- flow rail -->
+  <line x1="90" y1="152" x2="830" y2="152" stroke="#ffffff" stroke-opacity=".10" stroke-width="2"/>
+  <line x1="90" y1="152" x2="830" y2="152" stroke="url(#accent)" stroke-opacity=".55" stroke-width="2"/>
+
+  <!-- nodes -->
+  <g font-family="Consolas,monospace">
+    <g transform="translate(90 152)">
+      <circle r="18" fill="#0d1516" stroke="#71f0c1" stroke-width="2"/>
+      <circle r="4" fill="#71f0c1" filter="url(#glow)"/>
+      <text x="0" y="-38" text-anchor="middle" font-size="11" fill="#71f0c1">INPUT</text>
+      <text x="0" y="50" text-anchor="middle" font-size="12" fill="#e9eef3">PROBLEM</text>
+      <text x="0" y="70" text-anchor="middle" font-size="10" fill="#6f7b87">people + context</text>
     </g>
 
-    <g transform="translate(895 170)">
-      <rect width="390" height="118" rx="20" fill="#ffffff" fill-opacity=".028" stroke="#ffffff" stroke-opacity=".08"/>
-      <text x="26" y="34" font-family="Consolas,monospace" font-size="13" fill="#8ac3d7">NETWORKING / SECURITY</text>
-      <text x="26" y="66" font-size="21" font-weight="700" fill="#f5f7fa">Build trust into the path.</text>
-      <text x="26" y="91" font-size="14" fill="#8e99a5">routing · VPN · RBAC · auth · logging</text>
+    <g transform="translate(275 152)">
+      <circle r="18" fill="#0d1516" stroke="#78ddd2" stroke-width="2"/>
+      <circle r="4" fill="#78ddd2"/>
+      <text x="0" y="-38" text-anchor="middle" font-size="11" fill="#78ddd2">LAYER 01</text>
+      <text x="0" y="50" text-anchor="middle" font-size="12" fill="#e9eef3">CONNECT</text>
+      <text x="0" y="70" text-anchor="middle" font-size="10" fill="#6f7b87">network + cloud</text>
     </g>
 
-    <g transform="translate(115 405)">
-      <rect width="390" height="118" rx="20" fill="#ffffff" fill-opacity=".028" stroke="#ffffff" stroke-opacity=".08"/>
-      <text x="26" y="34" font-family="Consolas,monospace" font-size="13" fill="#82afdF">AI / DATA</text>
-      <text x="26" y="66" font-size="21" font-weight="700" fill="#f5f7fa">Turn signal into decisions.</text>
-      <text x="26" y="91" font-size="14" fill="#8e99a5">Python · local AI · vision · analytics · BI</text>
+    <g transform="translate(460 152)">
+      <circle r="18" fill="#0d1516" stroke="#79c5e7" stroke-width="2"/>
+      <circle r="4" fill="#79c5e7"/>
+      <text x="0" y="-38" text-anchor="middle" font-size="11" fill="#79c5e7">LAYER 02</text>
+      <text x="0" y="50" text-anchor="middle" font-size="12" fill="#e9eef3">PROTECT</text>
+      <text x="0" y="70" text-anchor="middle" font-size="10" fill="#6f7b87">identity + access</text>
     </g>
 
-    <g transform="translate(895 405)">
-      <rect width="390" height="118" rx="20" fill="#ffffff" fill-opacity=".028" stroke="#ffffff" stroke-opacity=".08"/>
-      <text x="26" y="34" font-family="Consolas,monospace" font-size="13" fill="#779df4">SOFTWARE ENGINEERING</text>
-      <text x="26" y="66" font-size="21" font-weight="700" fill="#f5f7fa">Make complexity usable.</text>
-      <text x="26" y="91" font-size="14" fill="#8e99a5">React · Node · Spring · Flutter · Electron</text>
+    <g transform="translate(645 152)">
+      <circle r="18" fill="#0d1516" stroke="#789fde" stroke-width="2"/>
+      <circle r="4" fill="#789fde"/>
+      <text x="0" y="-38" text-anchor="middle" font-size="11" fill="#789fde">LAYER 03</text>
+      <text x="0" y="50" text-anchor="middle" font-size="12" fill="#e9eef3">INTELLIGENCE</text>
+      <text x="0" y="70" text-anchor="middle" font-size="10" fill="#6f7b87">data + AI + logic</text>
+    </g>
+
+    <g transform="translate(830 152)">
+      <circle r="18" fill="#0d1516" stroke="#7798ff" stroke-width="2"/>
+      <circle r="4" fill="#7798ff" filter="url(#glow)"/>
+      <text x="0" y="-38" text-anchor="middle" font-size="11" fill="#7798ff">OUTPUT</text>
+      <text x="0" y="50" text-anchor="middle" font-size="12" fill="#e9eef3">EXPERIENCE</text>
+      <text x="0" y="70" text-anchor="middle" font-size="10" fill="#6f7b87">software + value</text>
     </g>
   </g>
 
+  <!-- footer row -->
+  <rect x="28" y="250" width="866" height="1" fill="#ffffff" fill-opacity=".07"/>
+  <text x="28" y="278" font-family="Consolas,monospace" font-size="11" fill="#6c7884">DESIGN PRINCIPLE</text>
+  <text x="158" y="278" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#a9b2bb">Every layer earns its place by making the complete system clearer, safer or more useful.</text>
+</g>
+
+<!-- tiny footer -->
+<text x="64" y="604" font-family="Consolas,monospace" font-size="11" fill="#56616d">MK / ENGINEER · SECURE · AUTOMATE</text>
+<text x="1336" y="604" text-anchor="end" font-family="Consolas,monospace" font-size="11" fill="#56616d">HARARE · ZIMBABWE</text>
 </svg>

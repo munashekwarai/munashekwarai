@@ -1,34 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="490" height="250" viewBox="0 0 490 250">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#05070a"/>
-      <stop offset="52%" stop-color="#0a0f15"/>
-      <stop offset="100%" stop-color="#05070a"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#73f0c2"/>
-      <stop offset="100%" stop-color="#6c9cff"/>
-    </linearGradient>
-    <linearGradient id="accent2" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0%" stop-color="#73f0c2" stop-opacity=".18"/>
-      <stop offset="100%" stop-color="#6c9cff" stop-opacity=".06"/>
-    </linearGradient>
-    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M44 0H0V44" fill="none" stroke="#ffffff" stroke-opacity=".03"/>
-    </pattern>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <rect width="490" height="250" rx="22" fill="url(#bg)"/>
-  <rect width="490" height="250" rx="22" fill="url(#grid)"/>
-  
-      <text x="34" y="43" font-family="Consolas,monospace" font-size="13" fill="#73f0c2">06 / BUILD</text>
-      <text x="34" y="91" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="700" fill="#f5f7fa">LAN</text>
-      <text x="34" y="123" font-family="Segoe UI,Arial,sans-serif" font-size="15" fill="#9ba7b4">Networking & systems experiments</text>
-      <rect x="34" y="159" width="422" height="1" fill="#ffffff" fill-opacity=".08"/>
-      <text x="34" y="194" font-family="Consolas,monospace" font-size="13" fill="#7f8a95">Networking · Infrastructure · Systems</text>
-      <text x="424" y="221" text-anchor="end" font-family="Consolas,monospace" font-size="13" fill="#73f0c2">OPEN REPOSITORY ↗</text>
-    
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#06090d"/>
+    <stop offset="55%" stop-color="#0a0f15"/>
+    <stop offset="100%" stop-color="#070a0f"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#71f0c1"/>
+    <stop offset="100%" stop-color="#7798ff"/>
+  </linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" fill="none" stroke="#ffffff" stroke-opacity=".025"/>
+  </pattern>
+</defs>
+<rect width="490" height="250" rx="22" fill="url(#bg)"/>
+<rect width="490" height="250" rx="22" fill="url(#grid)"/>
+
+<text x="32" y="40" font-family="Consolas,monospace" font-size="12" fill="#71f0c1">06 / NETWORK BUILD</text>
+<text x="32" y="86" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="750" fill="#f5f7fa">LAN</text>
+<text x="32" y="116" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#919ca7">Networking &amp; infrastructure work</text>
+
+<!-- mini network topology -->
+<g transform="translate(316 83)" stroke="#ffffff" stroke-opacity=".15" stroke-width="1.5">
+  <line x1="0" y1="38" x2="66" y2="0"/>
+  <line x1="0" y1="38" x2="72" y2="78"/>
+  <line x1="0" y1="38" x2="-58" y2="4"/>
+  <line x1="0" y1="38" x2="-54" y2="84"/>
+</g>
+<g>
+  <circle cx="316" cy="121" r="12" fill="#0f171c" stroke="#71f0c1"/>
+  <circle cx="382" cy="83" r="8" fill="#0f171c" stroke="#7798ff"/>
+  <circle cx="388" cy="161" r="8" fill="#0f171c" stroke="#79c5e7"/>
+  <circle cx="258" cy="87" r="8" fill="#0f171c" stroke="#78ddd2"/>
+  <circle cx="262" cy="167" r="8" fill="#0f171c" stroke="#71f0c1"/>
+</g>
+
+<rect x="32" y="160" width="426" height="1" fill="#ffffff" fill-opacity=".07"/>
+<text x="32" y="194" font-family="Consolas,monospace" font-size="12" fill="#7d8894">Routing · Switching · TCP/IP · Infrastructure</text>
+<text x="426" y="221" text-anchor="end" font-family="Consolas,monospace" font-size="12" fill="#71f0c1">OPEN REPOSITORY ↗</text>
 </svg>
