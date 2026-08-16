@@ -18,15 +18,16 @@
 
 ### `> whoami`
 
-**Munashe Kwarai** — a Zimbabwe-based technology builder working across infrastructure, security, intelligence and software.
+**Munashe Kwarai** is a Zimbabwe-based technology builder working across infrastructure, cybersecurity, artificial intelligence, data and software engineering.
 
-I like problems that are bigger than one framework.
+His work focuses on problems that are larger than a single framework or technology.
 
-The kind where **users, data, networks, access, automation and interfaces** all have to behave as one system.
+Problems where **users, data, networks, access, automation and interfaces** must operate as one connected system.
 
-I build with a solutions-architect mindset: understand the real problem, structure the moving parts, protect the weak points, then turn the design into something people can actually use.
+He approaches technology with a solutions-architect mindset: understand the real problem, structure the moving parts, protect the weak points, build deliberately and prove the result through something that actually works.
 
 </td>
+
 <td width="36%" valign="top">
 
 ```yaml
@@ -35,7 +36,7 @@ location: Harare, Zimbabwe
 mindset:
   - systems first
   - security early
-  - useful over flashy
+  - practical by design
   - prove with working code
 
 status: building
@@ -57,10 +58,12 @@ status: building
 
 ## `03 / SELECTED BUILDS`
 
-Not a wall of repositories. These are the projects that best show how I think.
+A focused selection of projects that best represents Munashe's engineering approach — practical systems, intelligent workflows and technology designed around real use cases.
 
 <table>
+
 <tr>
+
 <td width="50%">
 
 <a href="https://github.com/munashekwarai/project-lifecycle">
@@ -68,6 +71,7 @@ Not a wall of repositories. These are the projects that best show how I think.
 </a>
 
 </td>
+
 <td width="50%">
 
 <a href="https://github.com/munashekwarai/Offline-Phi-Voice-Assistant">
@@ -75,16 +79,19 @@ Not a wall of repositories. These are the projects that best show how I think.
 </a>
 
 </td>
+
 </tr>
 
 <tr>
+
 <td width="50%">
 
-<a href="https://github.com/munashekwarai/Cy-Tailor">
-<img src="./assets/project-03.svg" width="100%" alt="Cy-Tailor" />
+<a href="https://github.com/munashekwarai/CV-Tailor">
+<img src="./assets/project-03.svg" width="100%" alt="CV-Tailor" />
 </a>
 
 </td>
+
 <td width="50%">
 
 <a href="https://github.com/munashekwarai/MunaAI">
@@ -92,24 +99,21 @@ Not a wall of repositories. These are the projects that best show how I think.
 </a>
 
 </td>
+
 </tr>
 
 <tr>
-<td width="50%">
+
+<td colspan="2" align="center">
 
 <a href="https://github.com/munashekwarai/munapos">
-<img src="./assets/project-05.svg" width="100%" alt="MunaPOS" />
+<img src="./assets/project-05.svg" width="50%" alt="MunaPOS" />
 </a>
 
 </td>
-<td width="50%">
 
-<a href="https://github.com/munashekwarai/lan">
-<img src="./assets/project-06.svg" width="100%" alt="LAN project" />
-</a>
-
-</td>
 </tr>
+
 </table>
 
 <div align="right">
@@ -120,9 +124,12 @@ Not a wall of repositories. These are the projects that best show how I think.
 
 <br>
 
-## `04 / WORKING STACK`
+## `04 / ENGINEERING STACK`
+
+Technology is treated as a toolbox rather than an identity. The stack changes according to the system being built.
 
 <table>
+
 <tr>
 
 <td width="24%" valign="top">
@@ -181,11 +188,14 @@ Not a wall of repositories. These are the projects that best show how I think.
 </td>
 
 </tr>
+
 </table>
 
 <br>
 
 ## `05 / CREDENTIAL SIGNAL`
+
+Formal learning supports the practical work across networking, cloud infrastructure and artificial intelligence.
 
 <table>
 
@@ -220,6 +230,7 @@ Not a wall of repositories. These are the projects that best show how I think.
 <br><br>
 
 <table>
+
 <tr>
 
 <td width="55%" valign="top">
@@ -228,10 +239,15 @@ Not a wall of repositories. These are the projects that best show how I think.
 
 ```text
 secure cloud architecture
+
 networking + infrastructure
+
 cybersecurity engineering
+
 practical AI systems
+
 data engineering
+
 cross-platform software
 ```
 
@@ -239,13 +255,18 @@ cross-platform software
 
 <td width="45%" valign="top">
 
-### `PRINCIPLE`
+### `ENGINEERING PRINCIPLE`
 
-> **A strong system should be easy to explain, hard to misuse, and useful enough to prove its own value.**
+> **A strong system should be easy to explain, difficult to misuse and useful enough to prove its own value.**
+
+Munashe's work is driven by the belief that good technology should not simply look impressive.
+
+It should **solve something**.
 
 </td>
 
 </tr>
+
 </table>
 
 <br>
