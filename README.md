@@ -5,8 +5,10 @@
 <br>
 
 <a href="https://munashekwarai.co.zw"><b>PORTFOLIO</b></a>
-  ·   <a href="mailto:contact@munashekwarai.co.zw"><b>CONTACT</b></a>
-  ·   <a href="https://github.com/munashekwarai?tab=repositories"><b>ALL BUILDS</b></a>
+  ·  
+<a href="mailto:[contact@munashekwarai.co.zw](mailto:contact@munashekwarai.co.zw)"><b>CONTACT</b></a>
+  ·  
+<a href="https://github.com/munashekwarai?tab=repositories"><b>ALL BUILDS</b></a>
 
 </div>
 
@@ -18,7 +20,7 @@
 
 ### `> whoami`
 
-**Munashe Kwarai** is a Zimbabwe-based technology builder working across infrastructure, cybersecurity, artificial intelligence, data and software engineering.
+**Munashe Kwarai** is a Zimbabwe-based technology builder working across cloud infrastructure, networking, cybersecurity, artificial intelligence, data and software engineering.
 
 His work focuses on problems that are larger than a single framework or technology.
 
@@ -52,13 +54,13 @@ status: building
 
 <br><br>
 
-<img src="./assets/engineering-constellation.svg" width="100%" alt="Engineering constellation — cloud, security, AI, data and software" />
+<img src="./assets/engineering-constellation.svg" width="100%" alt="Munashe Kwarai systems architecture" />
 
 <br><br>
 
 ## `03 / SELECTED BUILDS`
 
-A focused selection of projects that best represents Munashe's engineering approach — practical systems, intelligent workflows and technology designed around real use cases.
+A focused selection of projects that represents Munashe's engineering approach — practical systems, intelligent workflows and technology designed around real use cases.
 
 <table>
 
@@ -104,10 +106,18 @@ A focused selection of projects that best represents Munashe's engineering appro
 
 <tr>
 
-<td colspan="2" align="center">
+<td width="50%">
 
 <a href="https://github.com/munashekwarai/munapos">
-<img src="./assets/project-05.svg" width="50%" alt="MunaPOS" />
+<img src="./assets/project-05.svg" width="100%" alt="MunaPOS" />
+</a>
+
+</td>
+
+<td width="50%">
+
+<a href="https://github.com/munashekwarai/lan">
+<img src="./assets/project-06.svg" width="100%" alt="LAN networking project" />
 </a>
 
 </td>
@@ -126,7 +136,7 @@ A focused selection of projects that best represents Munashe's engineering appro
 
 ## `04 / ENGINEERING STACK`
 
-Technology is treated as a toolbox rather than an identity. The stack changes according to the system being built.
+Technology is treated as a toolbox rather than an identity. The stack changes according to the system being designed and the problem being solved.
 
 <table>
 
@@ -134,7 +144,7 @@ Technology is treated as a toolbox rather than an identity. The stack changes ac
 
 <td width="24%" valign="top">
 
-**INTERFACES**
+### `INTERFACES`
 
 `React`
 `Next.js`
@@ -147,7 +157,7 @@ Technology is treated as a toolbox rather than an identity. The stack changes ac
 
 <td width="24%" valign="top">
 
-**SYSTEMS**
+### `SYSTEMS`
 
 `Node.js`
 `Java`
@@ -161,7 +171,7 @@ Technology is treated as a toolbox rather than an identity. The stack changes ac
 
 <td width="24%" valign="top">
 
-**DATA / AI**
+### `DATA / AI`
 
 `SQL Server`
 `MySQL`
@@ -175,11 +185,12 @@ Technology is treated as a toolbox rather than an identity. The stack changes ac
 
 <td width="28%" valign="top">
 
-**INFRA / SECURITY**
+### `INFRA / SECURITY`
 
 `Azure`
 `TCP/IP`
 `Routing`
+`Switching`
 `VPN`
 `JWT`
 `RBAC`
@@ -195,23 +206,23 @@ Technology is treated as a toolbox rather than an identity. The stack changes ac
 
 ## `05 / CREDENTIAL SIGNAL`
 
-Formal learning supports the practical work across networking, cloud infrastructure and artificial intelligence.
+Formal learning supports the practical work across networking, cloud infrastructure, security and artificial intelligence.
 
 <table>
 
 <tr>
 <td width="24%"><b>CISCO</b></td>
-<td>CCNA networking foundations · switching · routing · wireless</td>
+<td>CCNA: Introduction to Networks · Switching, Routing and Wireless</td>
 </tr>
 
 <tr>
 <td><b>MICROSOFT</b></td>
-<td>Azure Fundamentals · applied skills across storage, networking and identity</td>
+<td>Azure Fundamentals · Applied Skills across storage, networking and identity</td>
 </tr>
 
 <tr>
 <td><b>ORACLE</b></td>
-<td>AI Foundations Associate</td>
+<td>Oracle AI Foundations Associate</td>
 </tr>
 
 <tr>
@@ -239,15 +250,10 @@ Formal learning supports the practical work across networking, cloud infrastruct
 
 ```text
 secure cloud architecture
-
 networking + infrastructure
-
 cybersecurity engineering
-
 practical AI systems
-
 data engineering
-
 cross-platform software
 ```
 
@@ -259,7 +265,7 @@ cross-platform software
 
 > **A strong system should be easy to explain, difficult to misuse and useful enough to prove its own value.**
 
-Munashe's work is driven by the belief that good technology should not simply look impressive.
+Munashe's work is driven by the belief that technology should not simply look impressive.
 
 It should **solve something**.
 
@@ -279,8 +285,16 @@ It should **solve something**.
 
 <br>
 
-**[munashekwarai.co.zw](https://munashekwarai.co.zw)**
+### `BUILDING SOMETHING THAT MATTERS.`
 
-`Engineer · Secure · Automate`
+Secure systems. Practical automation. Technology designed around real problems.
+
+<br>
+
+<a href="https://munashekwarai.co.zw"><b>munashekwarai.co.zw</b></a>
+
+<br><br>
+
+`ENGINEER · SECURE · AUTOMATE`
 
 </div>
