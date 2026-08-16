@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="270" viewBox="0 0 1400 270">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070a"/>
+      <stop offset="52%" stop-color="#0a0f15"/>
+      <stop offset="100%" stop-color="#05070a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#73f0c2"/>
+      <stop offset="100%" stop-color="#6c9cff"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#73f0c2" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#6c9cff" stop-opacity=".06"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#ffffff" stroke-opacity=".03"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="270" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="270" rx="28" fill="url(#grid)"/>
+  
+  <text x="60" y="54" font-family="Consolas,monospace" font-size="14" fill="#73f0c2">06 / OPEN CHANNEL</text>
+  <text x="60" y="105" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#f5f7fa">Build something that matters.</text>
+  <text x="60" y="144" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#9ba7b4">Secure systems. Practical automation. Technology that earns its place.</text>
+  <rect x="60" y="188" width="1220" height="1" fill="#ffffff" fill-opacity=".08"/>
+  <text x="60" y="231" font-family="Consolas,monospace" font-size="14" fill="#77828d">Harare, Zimbabwe</text>
+  <text x="1280" y="231" text-anchor="end" font-family="Consolas,monospace" font-size="14" fill="#77828d">ENGINEER · SECURE · AUTOMATE</text>
+
+</svg>

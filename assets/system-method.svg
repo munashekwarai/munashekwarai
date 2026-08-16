@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070a"/>
+      <stop offset="52%" stop-color="#0a0f15"/>
+      <stop offset="100%" stop-color="#05070a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#73f0c2"/>
+      <stop offset="100%" stop-color="#6c9cff"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#73f0c2" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#6c9cff" stop-opacity=".06"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#ffffff" stroke-opacity=".03"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="360" rx="28" fill="url(#grid)"/>
+  
+  <text x="58" y="58" font-family="Consolas,monospace" font-size="15" fill="#73f0c2">01 / SYSTEM METHOD</text>
+  <text x="58" y="104" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="700" fill="#f5f7fa">From ambiguity to a working system.</text>
+  <text x="58" y="139" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#9ba7b4">I do not start with tools. I start with the problem, then design the system around it.</text>
+
+  <line x1="125" y1="244" x2="1272" y2="244" stroke="#ffffff" stroke-opacity=".10" stroke-width="2"/>
+  <line x1="125" y1="244" x2="1272" y2="244" stroke="url(#accent)" stroke-opacity=".55" stroke-width="2"/>
+
+  <g font-family="Consolas,monospace">
+    <g transform="translate(126 244)">
+      <circle r="22" fill="#0d1516" stroke="#73f0c2" stroke-opacity=".75"/>
+      <text x="0" y="6" text-anchor="middle" font-size="15" fill="#73f0c2">01</text>
+      <text x="-1" y="58" text-anchor="middle" font-size="16" fill="#f5f7fa">UNDERSTAND</text>
+      <text x="-1" y="82" text-anchor="middle" font-size="13" fill="#7e8994">people · pain · outcome</text>
+    </g>
+    <g transform="translate(412 244)">
+      <circle r="22" fill="#0d1516" stroke="#85cfcf" stroke-opacity=".75"/>
+      <text x="0" y="6" text-anchor="middle" font-size="15" fill="#85cfcf">02</text>
+      <text x="0" y="58" text-anchor="middle" font-size="16" fill="#f5f7fa">STRUCTURE</text>
+      <text x="0" y="82" text-anchor="middle" font-size="13" fill="#7e8994">users · data · flow</text>
+    </g>
+    <g transform="translate(698 244)">
+      <circle r="22" fill="#0d1516" stroke="#8ab9da" stroke-opacity=".75"/>
+      <text x="0" y="6" text-anchor="middle" font-size="15" fill="#8ab9da">03</text>
+      <text x="0" y="58" text-anchor="middle" font-size="16" fill="#f5f7fa">PROTECT</text>
+      <text x="0" y="82" text-anchor="middle" font-size="13" fill="#7e8994">trust · access · failure</text>
+    </g>
+    <g transform="translate(984 244)">
+      <circle r="22" fill="#0d1516" stroke="#7ba7ee" stroke-opacity=".75"/>
+      <text x="0" y="6" text-anchor="middle" font-size="15" fill="#7ba7ee">04</text>
+      <text x="0" y="58" text-anchor="middle" font-size="16" fill="#f5f7fa">BUILD</text>
+      <text x="0" y="82" text-anchor="middle" font-size="13" fill="#7e8994">test · break · refine</text>
+    </g>
+    <g transform="translate(1270 244)">
+      <circle r="22" fill="#0d1516" stroke="#6c9cff" stroke-opacity=".75"/>
+      <text x="0" y="6" text-anchor="middle" font-size="15" fill="#6c9cff">05</text>
+      <text x="0" y="58" text-anchor="middle" font-size="16" fill="#f5f7fa">PROVE</text>
+      <text x="0" y="82" text-anchor="middle" font-size="13" fill="#7e8994">value · evidence · use</text>
+    </g>
+  </g>
+
+</svg>

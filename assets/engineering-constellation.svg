@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="610" viewBox="0 0 1400 610">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070a"/>
+      <stop offset="52%" stop-color="#0a0f15"/>
+      <stop offset="100%" stop-color="#05070a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#73f0c2"/>
+      <stop offset="100%" stop-color="#6c9cff"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#73f0c2" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#6c9cff" stop-opacity=".06"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#ffffff" stroke-opacity=".03"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="610" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="610" rx="28" fill="url(#grid)"/>
+  
+  <text x="58" y="58" font-family="Consolas,monospace" font-size="15" fill="#73f0c2">02 / ENGINEERING CONSTELLATION</text>
+  <text x="58" y="104" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="700" fill="#f5f7fa">One system. Multiple disciplines.</text>
+  <text x="58" y="139" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#9ba7b4">The interesting work happens where infrastructure, security, intelligence and software meet.</text>
+
+  <g transform="translate(700 340)">
+    <circle r="78" fill="#ffffff" fill-opacity=".035" stroke="#ffffff" stroke-opacity=".10"/>
+    <circle r="52" fill="url(#accent2)" stroke="#73f0c2" stroke-opacity=".3"/>
+    <text x="0" y="-3" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="700" fill="#f5f7fa">MK</text>
+    <text x="0" y="22" text-anchor="middle" font-family="Consolas,monospace" font-size="12" fill="#8f9aa5">SYSTEMS</text>
+  </g>
+
+  <g stroke="#ffffff" stroke-opacity=".11" stroke-width="2">
+    <line x1="648" y1="295" x2="400" y2="215"/>
+    <line x1="752" y1="295" x2="1000" y2="215"/>
+    <line x1="648" y1="385" x2="400" y2="465"/>
+    <line x1="752" y1="385" x2="1000" y2="465"/>
+  </g>
+
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <g transform="translate(115 170)">
+      <rect width="390" height="118" rx="20" fill="#ffffff" fill-opacity=".028" stroke="#ffffff" stroke-opacity=".08"/>
+      <text x="26" y="34" font-family="Consolas,monospace" font-size="13" fill="#73f0c2">CLOUD / INFRASTRUCTURE</text>
+      <text x="26" y="66" font-size="21" font-weight="700" fill="#f5f7fa">Design for reliability.</text>
+      <text x="26" y="91" font-size="14" fill="#8e99a5">Azure · identity · monitoring · deployment</text>
+    </g>
+
+    <g transform="translate(895 170)">
+      <rect width="390" height="118" rx="20" fill="#ffffff" fill-opacity=".028" stroke="#ffffff" stroke-opacity=".08"/>
+      <text x="26" y="34" font-family="Consolas,monospace" font-size="13" fill="#8ac3d7">NETWORKING / SECURITY</text>
+      <text x="26" y="66" font-size="21" font-weight="700" fill="#f5f7fa">Build trust into the path.</text>
+      <text x="26" y="91" font-size="14" fill="#8e99a5">routing · VPN · RBAC · auth · logging</text>
+    </g>
+
+    <g transform="translate(115 405)">
+      <rect width="390" height="118" rx="20" fill="#ffffff" fill-opacity=".028" stroke="#ffffff" stroke-opacity=".08"/>
+      <text x="26" y="34" font-family="Consolas,monospace" font-size="13" fill="#82afdF">AI / DATA</text>
+      <text x="26" y="66" font-size="21" font-weight="700" fill="#f5f7fa">Turn signal into decisions.</text>
+      <text x="26" y="91" font-size="14" fill="#8e99a5">Python · local AI · vision · analytics · BI</text>
+    </g>
+
+    <g transform="translate(895 405)">
+      <rect width="390" height="118" rx="20" fill="#ffffff" fill-opacity=".028" stroke="#ffffff" stroke-opacity=".08"/>
+      <text x="26" y="34" font-family="Consolas,monospace" font-size="13" fill="#779df4">SOFTWARE ENGINEERING</text>
+      <text x="26" y="66" font-size="21" font-weight="700" fill="#f5f7fa">Make complexity usable.</text>
+      <text x="26" y="91" font-size="14" fill="#8e99a5">React · Node · Spring · Flutter · Electron</text>
+    </g>
+  </g>
+
+</svg>
