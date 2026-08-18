@@ -58,7 +58,31 @@ status: building
 
 <br><br>
 
-## `03 / SELECTED BUILDS`
+## `03 / SOLUTIONS PORTFOLIO`
+
+Eight working systems organized by the engineering capability they demonstrate. Each repository documents the operational problem, constraints, security boundary, tests, and honest limitations.
+
+### `BUILD`
+- **[OpenRelief](https://github.com/munashekwarai/openrelief)** — offline-first field records with queued synchronization and explicit conflict resolution.
+- **[TrustGate](https://github.com/munashekwarai/trustgate-api)** — authorization, rotating tokens, abuse controls, and auditable identity decisions.
+
+### `CONNECT`
+- **[NetSentinel](https://github.com/munashekwarai/netsentinel)** — composable DNS, TCP, HTTP, ICMP, and TLS service diagnostics.
+- **[GridWatch ZW](https://github.com/munashekwarai/gridwatch-zw)** — **SIMULATED TELEMETRY** outage detection and energy availability analytics.
+
+### `SECURE`
+- **[CertGuardian](https://github.com/munashekwarai/certguardian)** — certificate inventory, hostname validation, expiry thresholds, and historical scans.
+- **[LogSentry](https://github.com/munashekwarai/logsentry)** — lightweight defensive event normalization and pattern-based security alerts.
+
+### `AUTOMATE`
+- **[CloudForge](https://github.com/munashekwarai/cloudforge-reference-architecture)** — inspectable trust zones, private container networks, Terraform policy, health checks, and secret-file patterns.
+
+### `INTELLIGENCE`
+- **[GroundedAI](https://github.com/munashekwarai/grounded-ai)** — **EXPERIMENTAL** local retrieval, source citations, injection quarantine, provider abstraction, and evaluation.
+
+<br>
+
+## `04 / SELECTED BUILDS`
 
 A focused selection of projects that represents Munashe's engineering approach — practical systems, intelligent workflows and technology designed around real use cases.
 
@@ -134,7 +158,7 @@ A focused selection of projects that represents Munashe's engineering approach �
 
 <br>
 
-## `04 / ENGINEERING STACK`
+## `05 / ENGINEERING STACK`
 
 Technology is treated as a toolbox rather than an identity. The stack changes according to the system being designed and the problem being solved.
 
@@ -204,7 +228,7 @@ Technology is treated as a toolbox rather than an identity. The stack changes ac
 
 <br>
 
-## `05 / CREDENTIAL SIGNAL`
+## `06 / CREDENTIAL SIGNAL`
 
 Formal learning supports the practical work across networking, cloud infrastructure, security and artificial intelligence.
 
